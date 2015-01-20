@@ -73,7 +73,7 @@ def reservacion(inidate, findate, tarifa):
         return print("Asegurese de indicar 2 argumentos de tipo datetime.")
     
     '''
-    aqui los casos de prueba
+    aqui los casos de prueba asdasdad
     '''
 
 reservacion(datetime(2010, 5, 25, 19), datetime(2010, 5, 26, 18, 15),{'diurna': Decimal(10), 'nocturna': Decimal(15)})

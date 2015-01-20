@@ -74,6 +74,7 @@ def reservacion(inidate, findate, tarifa):
     
     '''
     aqui los casos de prueba
+    cambio coment
     '''
 
 reservacion(datetime(2010, 5, 25, 19), datetime(2010, 5, 26, 18, 15),{'diurna': Decimal(10), 'nocturna': Decimal(15)})
